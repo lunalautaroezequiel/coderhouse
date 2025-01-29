@@ -1,7 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-image: url(../img/consultorio.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: azure;
+}
+.navbar{    
+    background-color: $colorprimario;
+}
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+.nav-link{
+    font-size: 30px;
 }
 h1{
     font-size: 50px;
@@ -21,13 +34,6 @@ h1{
     align-items: center;
     font-weight: 700;
 }
-.lineargradient{
-    background-image: linear-gradient(to bottom, white, gray);
-    max-width: 800px; 
-    margin: 0 auto; 
-    padding: 20px;
-    border-radius: 5px;
-}
 .section {
     font-family: $fuentetextos;
     width: auto;
@@ -36,7 +42,6 @@ h1{
     justify-content: center;
     align-items: center;
     h2 {
-        background: white;
         font-family: $fuentetextos;
         font-size: 55px;
         text-align: center;
@@ -46,7 +51,6 @@ h1{
     }
 }
 .parrafo-section{
-    background: white;
     font-size: 15px;
     line-height: 1.6;
     border-radius: 3px;
@@ -63,7 +67,7 @@ h1{
     padding: 25px;
 }
 footer{
-    background-color:$colorprimario;
+    background-color: $colorprimario;
     font-size: 20px;  
     min-height: 50px;
     display: flex;
