@@ -24,6 +24,22 @@ body {
 
 .nav-link {
   font-size: 30px;
+  font-family: serif;
+}
+
+.spaced-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.spaced-link:hover {
+  transform: scale(1.1);
+  color: white;
 }
 
 h1 {
@@ -103,6 +119,21 @@ footer {
   border-radius: 3%;
 }
 
+.spaced-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.spaced-link:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
 .socios {
   background-color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -150,6 +181,21 @@ section input {
   text-decoration: none;
 }
 
+.spaced-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.spaced-link:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
 .card {
   width: 25rem;
   height: 25rem;
@@ -183,6 +229,21 @@ div a {
   border-radius: 5px;
 }
 
+.spaced-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.spaced-link:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
 .section-contacto {
   display: flex;
   flex-wrap: wrap;
@@ -192,6 +253,21 @@ div a {
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
+}
+
+.spaced-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.spaced-link:hover {
+  transform: scale(1.1);
+  color: white;
 }
 
 .seccion-especialidades {
