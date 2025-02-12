@@ -10,6 +10,126 @@
 
 body {
   background-color: azure;
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #7c7c7c;
+  padding: 10px 0;
+}
+.navbar .navbar-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: white !important;
+  transition: 0.3s ease;
+}
+.nav-link:hover {
+  color: #ffcc00 !important;
+  transform: scale(1.1);
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.spaced-link {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Georgia;
+  text-align: center;
+  border-bottom: solid;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.introduccion {
+  font-family: sans-serif;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  max-width: 1300px;
+  margin: 60px auto;
+  padding: 30px;
+}
+
+.section {
+  padding: 40px;
+  flex: 1 1 48%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.image-container img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.image-container img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #7c7c7c;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+}
+
+.requisitos {
+  font-size: 20px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  padding-top: 40px;
+  border-radius: 3%;
 }
 
 .navbar {
@@ -25,98 +145,6 @@ body {
 .nav-link {
   font-size: 30px;
   font-family: serif;
-}
-
-.spaced-link {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 8px 16px;
-  text-decoration: none;
-  color: #000;
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-.spaced-link:hover {
-  transform: scale(1.1);
-  color: white;
-}
-
-h1 {
-  font-size: 50px;
-  font-family: Georgia;
-  text-align: center;
-  border-bottom: solid;
-  border-radius: 10%;
-  margin: 10px;
-}
-
-.introduccion {
-  font-family: sans-serif;
-  width: 70%;
-  padding: 10px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: 700;
-}
-
-.section {
-  font-family: sans-serif;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.section h2 {
-  font-family: sans-serif;
-  font-size: 55px;
-  text-align: center;
-  padding-left: 20px;
-  margin: 10px;
-  border-radius: 3px;
-}
-
-.parrafo-section {
-  font-size: 15px;
-  line-height: 1.6;
-  border-radius: 3px;
-}
-
-.image-container img {
-  max-width: 45%;
-  height: 300px;
-  display: block;
-  margin: 5px auto;
-  border-radius: 5px;
-}
-
-.back {
-  font-size: 20px;
-  padding: 25px;
-}
-
-footer {
-  background-color: #7c7c7c;
-  font-size: 20px;
-  min-height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 30px;
-  padding-top: 20px;
-}
-
-.requisitos {
-  font-size: 20px;
-  width: 100%;
-  height: 70px;
-  text-align: center;
-  padding-top: 40px;
-  border-radius: 3%;
 }
 
 .spaced-link {

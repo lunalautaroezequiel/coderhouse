@@ -4,18 +4,33 @@
 }
 body {
     background-color: azure;
+    font-family: $fuentetextos;
+    color: #333;
+    line-height: 1.6;
 }
-.navbar{    
+.navbar {
     background-color: $colorprimario;
+    padding: 10px 0;
+    .navbar-nav {
+        display: flex;
+        gap: 20px;
+    }
+}
+.nav-link {
+    font-size: 18px;
+    font-family: $fuentetextos;
+    text-transform: uppercase;
+    color: white !important;
+    transition: 0.3s ease;
+    &:hover {
+        color: #ffcc00 !important;
+        transform: scale(1.1);
+    }
 }
 .navbar-center {
     display: flex;
     justify-content: center;
     width: 100%; 
-}
-.nav-link{
-    font-size: 30px;
-    font-family:serif;
 }
 .spaced-link {
     margin-left: 20px;
@@ -26,10 +41,7 @@ body {
     display: inline-block;
     transition: transform 0.3s ease;
 }
-.spaced-link:hover {
-    transform: scale(1.1);
-    color: white;
-}
+
 h1{
     font-size: 50px;
     font-family: $fuentetitulos;
@@ -40,7 +52,7 @@ h1{
 }
 .introduccion{
     font-family: $fuentetextos;
-    width: 70%;
+    width: 50%;
     padding: 10px;
     margin: 0 auto;
     display: flex;
@@ -48,46 +60,50 @@ h1{
     align-items: center;
     font-weight: 700;
 }
-.section {
-    font-family: $fuentetextos;
-    width: auto;
+.section-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    h2 {
-        font-family: $fuentetextos;
-        font-size: 55px;
-        text-align: center;
-        padding-left: 20px;
-        margin: 10px;
-        border-radius: 3px;
-    }
+    gap: 40px; 
+    max-width: 1300px;
+    margin: 60px auto;
+    padding: 30px;
 }
-.parrafo-section{
-    font-size: 15px;
-    line-height: 1.6;
-    border-radius: 3px;
+
+.section {
+    padding: 40px;
+    flex: 1 1 48%; 
+    max-width: 600px;
+    text-align: center;
+}
+h2 {
+    font-family: $fuentetitulos;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
 }
 .image-container img {
-    max-width: 45%;
-    height: 300px;
+    max-width: 40%;
+    height: auto;
     display: block;
-    margin: 5px auto;
-    border-radius: 5px;
-}  
-.back {
-    font-size: 20px;
-    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.05);
+    }
 }
-footer{
+footer {
     background-color: $colorprimario;
-    font-size: 20px;  
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
     width: 100%;
-    height: 30px;
-    padding-top: 20px;
 }
